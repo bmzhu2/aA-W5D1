@@ -1,0 +1,24 @@
+.sections {
+  // background: green;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid $light-gray;
+}
+
+.sections ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sections ul li {
+  margin: 10px;
+}
+
+.sections a {
+  font-size: 14px;
+  font-family: $sans-serif;
+}
+
+.sections a:hover {
+  background: $lightest-gray
+}
